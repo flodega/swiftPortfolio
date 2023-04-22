@@ -9,13 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            
+            VStack{
+                NavigationLink(destination: TipCalculatorView()) {
+                    Text("Tip Calculator")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                }
+               // Spacer()
+            }.navigationTitle(Text("Welcome to the tip calculator")
+                .font(.largeTitle)
+                .foregroundColor(.blue)
+                
+            )
+            .navigationBarTitleDisplayMode(.inline)
         }
-        .padding()
     }
 }
 

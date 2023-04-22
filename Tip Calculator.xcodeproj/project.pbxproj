@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91ABE26629F0BD16000F8A30 /* Tip_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ABE26529F0BD16000F8A30 /* Tip_CalculatorApp.swift */; };
+		91ABE26629F0BD16000F8A30 /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ABE26529F0BD16000F8A30 /* TipCalculator.swift */; };
 		91ABE26829F0BD16000F8A30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ABE26729F0BD16000F8A30 /* ContentView.swift */; };
 		91ABE26A29F0BD17000F8A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91ABE26929F0BD17000F8A30 /* Assets.xcassets */; };
 		91ABE26D29F0BD17000F8A30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91ABE26C29F0BD17000F8A30 /* Preview Assets.xcassets */; };
+		91ABE27429F0BFC4000F8A30 /* TipCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ABE27329F0BFC4000F8A30 /* TipCalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		91ABE26229F0BD16000F8A30 /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91ABE26529F0BD16000F8A30 /* Tip_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_CalculatorApp.swift; sourceTree = "<group>"; };
+		91ABE26529F0BD16000F8A30 /* TipCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
 		91ABE26729F0BD16000F8A30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		91ABE26929F0BD17000F8A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91ABE26C29F0BD17000F8A30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91ABE27329F0BFC4000F8A30 /* TipCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +53,11 @@
 		91ABE26429F0BD16000F8A30 /* Tip Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				91ABE26529F0BD16000F8A30 /* Tip_CalculatorApp.swift */,
+				91ABE26529F0BD16000F8A30 /* TipCalculator.swift */,
 				91ABE26729F0BD16000F8A30 /* ContentView.swift */,
 				91ABE26929F0BD17000F8A30 /* Assets.xcassets */,
 				91ABE26B29F0BD17000F8A30 /* Preview Content */,
+				91ABE27329F0BFC4000F8A30 /* TipCalculatorView.swift */,
 			);
 			path = "Tip Calculator";
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91ABE26829F0BD16000F8A30 /* ContentView.swift in Sources */,
-				91ABE26629F0BD16000F8A30 /* Tip_CalculatorApp.swift in Sources */,
+				91ABE27429F0BFC4000F8A30 /* TipCalculatorView.swift in Sources */,
+				91ABE26629F0BD16000F8A30 /* TipCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
